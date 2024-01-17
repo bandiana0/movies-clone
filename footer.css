@@ -1,0 +1,42 @@
+
+.site-footer {
+    max-width: 60%;
+    padding: 70px 45px;
+    margin: 0 auto;
+}
+.footer-title {
+    color: #736f68;
+    font-size: 15px;
+    font-weight: normal;
+
+}
+
+.footer-column {
+    display: flex;
+    font-size: 13px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-column ul {
+    margin-right: 60px;
+    padding: 0;
+}
+.footer-column li {
+    margin: 5px 0;
+    
+}
+.footer-column li a {
+    color: #736f68;
+    text-decoration: none;
+}
+.footer-netflix-bulgaria {
+    color: #736f68;
+    font-size: 13px;
+}
+@media all and (max-width: 900px) {
+    .footer-column ul {
+        margin: 0;
+        width: 150px;
+    }
+    
+}
